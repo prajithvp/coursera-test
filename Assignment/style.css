@@ -1,0 +1,156 @@
+
+* {
+    margin-top: 0;
+    padding: 0;
+}
+h1
+{
+margin-bottom: 50px;
+margin-top: 20px;
+
+text-align: center;
+font-size: 150%;
+}
+#containerofmenus
+{
+	position: relative;
+	background-color: white;
+	border: 0px solid black;
+	
+}
+
+#container1
+{
+	background-color: gray;
+	border: 3px solid black;	
+	margin: 10px;
+}
+#container2
+{
+	background-color: gray;
+	border: 3px solid black;
+	margin: 10px 10px 10px 20px;
+}
+
+#container3
+{
+	background-color: gray;
+	border: 3px solid black;
+	margin: 10px 10px 10px 40px;
+
+}
+/* Desktop Version */
+@media (min-width: 992px)
+{
+#container1
+{
+		width: 31.5%;
+
+}
+#container2
+{
+	position: absolute;
+	top: 0;
+	left: 32%;
+	width: 31.5%;
+
+}
+#container3
+{
+	position: absolute;
+	top: 0;
+	left: 63%;
+	width: 31.5%;
+
+}	
+}
+/* Tablet Version */
+@media (min-width: 768px) and (max-width: 991px)
+{
+
+#container1
+{
+		width: 48%;
+		margin: 10px;
+}
+#container2
+{
+	position: absolute;
+	top: 0;
+	left: 48.5%;
+	width: 48%;
+	margin: 0px 0px 10px 20px;
+}
+#container3
+{
+	position: absolute;
+
+	margin: 10px 10px 10px 10px;
+}	
+}
+/* Mobile Version */
+@media (max-width: 767px)
+{
+	#container1
+	{
+		width: 100%;
+		margin: 10px;
+	}
+	#container2
+	{
+		width: 100%;
+		margin: 10px;
+
+	}
+	#container3
+	{
+		width: 100%;
+		margin: 10px;
+
+	}	
+}
+#p1
+{
+	
+	background-color: #F3A5A5;
+	padding: 1px;
+	border: 1px solid black;
+	width: 80px;
+	height: 20px;
+	position: relative;
+	float: right;
+
+}
+#p2
+{
+	float: right;
+	background-color: #8B1616;
+	color: white;
+	padding: 1px;
+	border: 1px solid black;
+	width: 80px;
+	height: 20px;	 
+	
+}
+#p3
+{
+	float: right;
+	background-color: #D08E15;
+	padding: 1px;
+	border: 3px solid black;
+	width: 80px;
+	height: 20px;
+	 
+}
+/* Desktop Version */
+@media (min-width: 992px)
+{
+
+	}
+#titlebox
+{
+	position: relative;
+	top: 20px;
+	
+	
+}
