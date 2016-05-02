@@ -1,0 +1,152 @@
+body
+{
+	font-size: 20px;
+	color: white;
+	background-color: maroon;
+	font-family: 'Oxygen', sans-serif;
+}
+.container
+{
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+/* Header */
+#header-nav
+{
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+}
+/* Logo Image */
+#logo-img
+{
+	background: url('../images/restaurant_logo1.jpg');
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+}
+.navbar
+{
+	padding-top: 20px;
+}
+/* Restaurant Name */
+.navbar h1
+{
+	font-family: 'Lora', serif;
+	color: #557C3E;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar a:hover, .navbar-brand a:focus
+{
+	text-decoration: none;
+}
+.navbar-brand p
+{
+	color: #000;
+	text-transform: uppercase;
+	font-size: .7em;
+	margin-top: 15px;
+}
+.navbar-brand span
+{
+vertical-align: middle;
+}
+#nav-list
+{
+	margin-top: 10px;
+}
+#nav-list a
+{
+	color: maroon;
+	text-align: center;
+	font-size: 0.9em;
+}
+#nav-list a:hover
+{
+font-size: 
+	background-color: white;
+}
+#nav-list a span
+{
+font-size: 0.6em;
+}
+#phone
+{
+	margin-top: 5px;
+}
+#phone a
+{
+	text-align: right;
+	padding-bottom: 0;
+	font-size: 1.2em;
+
+}
+#phone div
+{
+	color: maroon;
+	text-align: right;
+	padding-right: 15px;
+	font-size: 0.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar
+{
+	border: 1px solid maroon;
+}
+.navbar-header button.navbar-toggle
+{
+	clear: both;
+	margin-top: -10px;
+}
+@media	(min-width: 1200px)
+{
+
+}
+@media	(min-width: 992px) and (max-width: 1199px)
+{
+#logo-img
+{
+	background: url('../images/restaurant_logo_tab.jpg');
+	width: 50px;
+	height: 50px;
+	margin: 5px,5px,5px,0;
+}
+
+}
+
+@media	(min-width: 768px) and (max-width: 991px)
+{
+
+}
+
+@media	(max-width: 767px)
+{
+	.navbar-brand
+	{
+		height: 80px;
+	}
+	.navbar-brand h1
+	{
+		font-size: 5vw;
+	}
+	.navbar-brand p
+	{
+		font-size: 0.6em;
+		margin-top: 12px;
+	}
+	.navbar-brand p img
+	{
+		height: 15px;
+	}
+	#collapsable-nav a 
+	{
+		font-size: 0.8em;
+		margin: 3px;
+	}
+}

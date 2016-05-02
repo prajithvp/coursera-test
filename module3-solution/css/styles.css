@@ -1,0 +1,154 @@
+body
+{
+	font-size: 20px;
+	color: black;
+	background-color: gray;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container
+{
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+
+/* Header */
+#header-nav
+{
+	background-color: #58FAF4;
+	border-radius: 0;
+	border: 0;
+	font-family: 'Oswald', sans-serif;
+	padding: 0px;
+}
+
+.navbar
+{
+	padding-top: 20px;
+	margin-bottom: 0px;
+}
+.navbar-brand h1
+{
+	font-family: 'Oswald', sans-serif;
+	color: #557C3E;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 4vw;
+	padding: 5px;
+	padding-left: 15px;
+	line-height: .005;
+}
+/* Menu */
+#main-content
+{
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
+	border-radius: 0;
+}
+
+
+.jumbotron
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+.jumbotron h2
+{
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+		
+}
+
+.container #sub_title
+{
+	text-align: center;
+	color: maroon;	
+	font-size: 1.2em;
+
+}
+
+.row
+{
+margin-right: 5px;
+	margin-left: 5px;	
+}	
+#tiles
+{
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.container span
+{
+	font-size: 0.8em;
+}
+
+
+#chick,#beef,#sushi
+{
+	color: #2E2E2E;
+	height: 1000px;
+	border: 2px	solid maroon;
+	position: relative;
+	overflow: hidden;
+}
+.navbar a:hover, .navbar-brand h1:focus
+{
+	text-decoration: none;
+}
+#nav-list
+{
+	margin-top: 10px;
+}
+#nav-list a
+{
+	color: #557C3E;
+	text-align: center;
+	background-color: #f6b319;
+}
+#nav-list a:hover
+{
+	background-color: white;
+}
+#nav-list a span
+{
+font-size: 0.6em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar
+{
+	border: 5px solid maroon;
+}
+.navbar-header button.navbar-toggle
+{
+	clear: both;
+	margin-top: -10px;
+/*
+
+#phone
+{
+	margin-top: 5px;
+}
+#phone a
+{
+	text-align: right;
+	padding-bottom: 0;
+	font-size: 1.6em;
+
+}
+#phone div
+{
+	color: maroon;
+	text-align: right;
+	padding-right: 15px;
+	font-size: 0.8em;
+}
+
+} */
